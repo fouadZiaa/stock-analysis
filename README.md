@@ -15,7 +15,7 @@ The original code used nested loops to find stock changes for a specified year i
 
 This returned the information in 0.5625 and 0.578125 seconds for 2017 and 2018 respectively.
 <p align="center">
-   <img width="300" height="300" src="Resources/2017_OG.png">
+   <img width="300" height="300" src="Resources/2017_OG.PNG">
 </p> 
 <p align="center">
    <img width="300" height="300" src="Resources/2018_OG.png">
