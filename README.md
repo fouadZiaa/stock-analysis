@@ -13,7 +13,7 @@ The original code used nested loops to find stock changes for a specified year i
    <img width="300" height="300" src="Resources/original_code.png">
 </p>  
 
-This returned the information in 0.5625 and 0.578125 seconds for 2017 and 2018 respectively.
+This returned the information in 0.8359375 and 0.84375 seconds for 2017 and 2018 respectively.
 <p align="center">
    <img width="300" height="300" src="Resources/2017_OG.PNG">
 </p> 
@@ -29,7 +29,7 @@ In order to make the code more efficient, nested loops were dropped in favor of 
    <img width="300" height="300" src="Resources/refactor_code.png">
 </p> 
 
-The refactored code allowed the program to run through the information 1 time, and return the same information in quicker than the original code.
+The refactored code allowed the program to run through the information 1 time, and return the same information a little quicker than the original code.
 <p align="center">
    <img width="300" height="300" src="Resources/2017_Refactor.PNG">
 </p> 
@@ -39,4 +39,4 @@ The refactored code allowed the program to run through the information 1 time, a
 
 ## Summary  
 
-Refactoring code was a great way to explore finding alternative methods to a previously successful one. It also allowed further opportunities to debug different types of coding issues. Refactoring does have disadvantages as well. If the code was not properly annotated then it could be hard to decipher the purpose of a certain line or section of code. There is also the issue of the code not working once reworked. In this project, I found that the new code did not work right away for the 2017 page as there was some problems with the data itself. While it worked in the end, it did take some time to find the cause of the issue. The data corruption was not an issue with the original code, and for our small data set, the original code did the job just fine. Having worked with both, I do like the speed and efficiency of the refactored code, but knowing its more temperamental with respect to data corruption, It may require some more refactoring to work through corruptions. 
+Refactoring code was a great way to explore finding alternative methods to a previously successful one. It also allowed further opportunities to debug different types of coding issues. Refactoring does have disadvantages as well. If the code was not properly annotated then it could be hard to decipher the purpose of a certain line or section of code. There is also the issue of the code not working once reworked. 
