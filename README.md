@@ -15,12 +15,12 @@ The original code used nested loops to find stock changes for a specified year i
 
 This returned the information in 0.5625 and 0.578125 seconds for 2017 and 2018 respectively.
 <p align="center">
-   <img width="300" height="300" src="Resources/2017_runtime_Original_code.png">
+   <img width="300" height="300" src="Resources/2017_OG.png">
 </p> 
 <p align="center">
-   <img width="300" height="300" src="Resources/2018_runtime_original_code.png">
+   <img width="300" height="300" src="Resources/2018_OG.png">
 </p>  
- The big concern here with this method was the time it took to process a years’ worth of information for only 12 stocks. 
+ 
 
 ### Refactored Code
 
@@ -31,10 +31,10 @@ In order to make the code more efficient, nested loops were dropped in favor of 
 
 The refactored code allowed the program to run through the information 1 time, and return the same information in quicker than the original code.
 <p align="center">
-   <img width="300" height="300" src="Resources/runtime_2017.png">
+   <img width="300" height="300" src="Resources/2017_Refactor.png">
 </p> 
 <p align="center">
-   <img width="300" height="300" src="Resources/runtime_2018_factored_code.png">
+   <img width="300" height="300" src="Resources/2018_Refactor.png">
 </p> 
 
 ## Summary  
