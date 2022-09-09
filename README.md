@@ -18,7 +18,7 @@ This returned the information in 0.5625 and 0.578125 seconds for 2017 and 2018 r
    <img width="300" height="300" src="Resources/2017_OG.PNG">
 </p> 
 <p align="center">
-   <img width="300" height="300" src="Resources/2018_OG.png">
+   <img width="300" height="300" src="Resources/2018_OG.PNG">
 </p>  
  
 
@@ -31,10 +31,10 @@ In order to make the code more efficient, nested loops were dropped in favor of 
 
 The refactored code allowed the program to run through the information 1 time, and return the same information in quicker than the original code.
 <p align="center">
-   <img width="300" height="300" src="Resources/2017_Refactor.png">
+   <img width="300" height="300" src="Resources/2017_Refactor.PNG">
 </p> 
 <p align="center">
-   <img width="300" height="300" src="Resources/2018_Refactor.png">
+   <img width="300" height="300" src="Resources/2018_Refactor.PNG">
 </p> 
 
 ## Summary  
