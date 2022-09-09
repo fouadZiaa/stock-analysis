@@ -9,7 +9,9 @@ The purpose of this project was refactoring of the code to analyze stock data fr
 ### Original Code 
 
 The original code used nested loops to find stock changes for a specified year in the data. An array of the ticker values desired was created, which was used as an index for the outer loop, while the inner loop went through the data looking for information that matched the indexed ticker.
-> <Resources/original_code.png>
+<p align="center">
+   <img width="300" height="300" src="Resources/original_code.png">
+</p>  
 
 This returned the information I was looking for in 0.5625 and 0.578125 seconds for 2017 and 2018 respectively.
 > <img width="271" alt="Screen Shot 2021-02-14 at 8 41 36 PM" src="https://user-images.githubusercontent.com/78064648/107908400-ca573100-6f0a-11eb-8b71-92489e4450a5.png">
